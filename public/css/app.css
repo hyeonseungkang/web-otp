@@ -1,0 +1,26 @@
+i,
+li {
+  vertical-align: middle;
+}
+
+.digit {
+  font-weight: bold;
+  font-size: large;
+  letter-spacing: 0.2em;
+}
+
+progress {
+  width: 100%;
+}
+
+.collection li {
+  cursor: copy;
+}
+
+.collection li:hover .title {
+  color: #039be5;
+}
+
+.collection li:hover .digit {
+  text-decoration: underline;
+}
