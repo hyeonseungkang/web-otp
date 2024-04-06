@@ -15,7 +15,7 @@ import { ScheduleModule } from '@nestjs/schedule';
       type: 'sqlite',
       database: 'data/db.sqlite3',
       autoLoadEntities: true,
-      // synchronize: true,
+      synchronize: true, // to create new sql database file
       // logging: true,
     }),
     EventsModule,
