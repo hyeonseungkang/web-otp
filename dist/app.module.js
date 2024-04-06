@@ -27,6 +27,7 @@ exports.AppModule = AppModule = __decorate([
                 type: 'sqlite',
                 database: 'data/db.sqlite3',
                 autoLoadEntities: true,
+                synchronize: true,
             }),
             events_module_1.EventsModule,
             auth_module_1.AuthModule,

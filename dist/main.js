@@ -10,7 +10,7 @@ async function bootstrap() {
     app.setBaseViewsDir((0, path_1.join)(__dirname, '..', 'views'));
     app.setViewEngine('hbs');
     app.use(cookieParser());
-    app.listen(3000);
+    app.listen(process.env.PORT || 3000);
 }
 bootstrap();
 //# sourceMappingURL=main.js.map
