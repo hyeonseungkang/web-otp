@@ -36,7 +36,6 @@
     "jimp": "^0.22.12",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
-    "speakeasy": "^2.0.0",
     "sqlite3": "^5.1.7",
     "totp-generator": "^1.0.0",
     "typeorm": "^0.3.20"
