@@ -32,15 +32,15 @@
     "@nestjs/typeorm": "^10.0.2",
     "@nestjs/websockets": "^10.3.7",
     "@zxing/library": "^0.20.0",
+    "better-sqlite3": "^12.11.1",
     "cookie-parser": "^1.4.6",
     "gauth-decode": "^0.1.1",
     "hbs": "^4.2.0",
     "jimp": "^0.22.12",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
-    "sqlite3": "^6.0.1",
     "totp-generator": "^1.0.0",
-    "typeorm": "^0.3.20"
+    "typeorm": "^0.3.31"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
@@ -83,5 +83,8 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
   }
 }
