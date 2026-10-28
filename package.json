@@ -39,7 +39,7 @@
     "jimp": "^0.22.12",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
-    "totp-generator": "^1.0.0",
+    "totp-generator": "^2.0.1",
     "typeorm": "^0.3.31"
   },
   "devDependencies": {
