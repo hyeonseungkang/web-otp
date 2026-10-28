@@ -12,7 +12,7 @@ import { ScheduleModule } from '@nestjs/schedule';
       isGlobal: true,
     }),
     TypeOrmModule.forRoot({
-      type: 'sqlite',
+      type: 'better-sqlite3',
       database: 'data/db.sqlite3',
       autoLoadEntities: true,
       synchronize: true, // to create new sql database file
